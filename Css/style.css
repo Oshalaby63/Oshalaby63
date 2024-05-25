@@ -1,0 +1,637 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .container .navbar-brand{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link.active::after{
+    content: ' ';
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+
+/* ================================= */
+
+.home{
+    background-image: url(../imgs/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.home .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .6);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anmi::after{
+    content: '';
+    font-size: 6rem; 
+    animation: typing 15s  infinite alternate ;
+    -webkit-animation: typing 15s  infinite alternate  ;
+}
+@keyframes typing {
+    0%{
+        content: ' |';
+    }
+    2%{
+        content: ' D';
+    }
+    4%{
+        content: ' De|';
+    }
+    6%{
+        content: ' Dev';
+    }
+    8%{
+        content: ' Deve|';
+    }
+    10%{
+        content: ' Devel';
+    }
+    12%{
+        content: ' Develo|';
+    }
+    14%{
+        content: ' Develop';
+    }
+    16%{
+        content: ' Develope|';
+    }
+    18%{
+        content: ' Developer';
+    }
+    20%{
+        content: '  Develope|';
+    }
+    22%{
+        content: ' Develop';
+    }
+    24%{
+        content: ' Develo|';
+    }
+    26%{
+        content: ' Devel';
+    }
+    28%{
+        content: ' Deve|';
+    }
+    30%{
+        content: ' Dev';
+    }
+    32%{
+        content: ' De|';
+    }
+    34%{
+        content: ' D';
+    }
+    36%{
+        content: ' |';
+    }
+    38%{
+        content: ' |';
+    }
+    40%{
+        content: ' D';
+    }
+    42%{
+        content: ' De|';
+    }
+    44%{
+        content: ' Des';
+    }
+    46%{
+        content: ' Desi|';
+    }
+    48%{
+        content: ' Desig';
+    }
+    50%{
+        content: ' Design|';
+    }
+    52%{
+        content: ' Designe';
+    }
+    54%{
+        content: ' Designer|';
+    }
+    56%{
+        content: ' Designe';
+    }
+    58%{
+        content: ' Design|';
+    }
+    60%{
+        content: ' Desig';
+    }
+    62%{
+        content: ' Desi|';
+    }
+    64%{
+        content: ' Des';
+    }
+    66%{
+        content: ' De|';
+    }
+    68%{
+        content: ' D';
+    }
+    70%{
+        content: ' |';
+    }
+    71%{
+        content: ' O';
+    }
+    72%{
+        content: ' Os|';
+    }
+    73%{
+        content: ' Osa';
+    }
+    74%{
+        content: ' Osam|';
+    }
+    75%{
+        content: ' Osama';
+    }
+    76%{
+        content: ' Osama S|';
+    }
+    77%{
+        content: ' Osama Sh';
+    }
+    78%{
+        content: ' Osama Sha|';
+    }
+    79%{
+        content: ' Osama Shal';
+    }
+    80%{
+        content: ' Osama Shala|';
+    }
+    81%{
+        content: ' Osama Shalab';
+    }
+    82%{
+        content: ' Osama Shalaby|';
+    }
+    83%{
+        content: ' Osama Shalab';
+    }
+    84%{
+        content: ' Osama Shala|';
+    }
+    85%{
+        content: ' Osama Shal';
+    }
+    86%{
+        content: ' Osama Sha|';
+    }
+    87%{
+        content: ' Osama Sh';
+    }
+    88%{
+        content: ' Osama S|';
+    }
+    89%{
+        content: ' Osama';
+    }
+    90%{
+        content: ' Osam|';
+    }
+    92%{
+        content: ' Osa';
+    }
+    94%{
+        content: ' Os|';
+    }
+    96%{
+        content: ' O';
+    }
+    98%{
+        content: ' |';
+    }
+}
+/* ============================= */
+
+.sub-title{
+    color: #999;
+    letter-spacing: 2px;
+}
+.about-paragraph{
+    color: #748182;
+    
+}
+
+.bg-icon-home {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    background: #0000004d;
+    margin: 0 2px;
+}
+
+.container .row .about-img::after {
+    content: "  ";
+    position: absolute;
+    width: 100%;
+    height: 2130%;
+    z-index: -1;
+    background-image: url(../imgs/dots.png);
+    /* background-repeat: repeat; */
+    left: -30px;
+    bottom: -250px;
+
+}
+
+.container .row .about-context .progress {
+    height: 20px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    background-color: #f7f7f7;
+    font-size: 10px;
+}
+
+
+
+.container .row .about-context .progress .progress-bar1 {
+    animation: value 1s;
+}
+
+@keyframes value {
+    0% {
+        width: 20%;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+.container .row .about-context .progress .progress-bar2 {
+    animation: value2 1s;
+}
+
+@keyframes value2 {
+    0% {
+        width: 20%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.container .row .about-context .progress .progress-bar3 {
+    animation: value3 1s;
+}
+
+@keyframes value3 {
+    0% {
+        width: 20%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.container .row .about-context .progress .prog-text span {
+    font-size: 12px;
+}
+
+.container .row .about-context button {
+    transition: all .5s;
+}
+
+.container .row .about-context button a {
+    transition: all .5s;
+}
+
+.container .row .about-context .btn1:hover {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.container .row .about-context .btn2:hover {
+    background-color: black !important;
+
+}
+
+.container .row .about-context .btn2:hover a {
+
+    color: white !important;
+}
+
+/* ============================= */
+
+.Services {
+    background-color: #f7f7f7;
+}
+
+.section-head h3::before {
+    content: "";
+    position: absolute;
+    width: 290px;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    bottom: -7px;
+    z-index: -2;
+}
+
+.Services .row .parent .icon-service {
+    width: 70px;
+    height: 70px;
+    background-color: #f4f4f4;
+    transition: all .5s;
+}
+
+.Services .row .parent p {
+    font-size: 12px;
+}
+
+.Services .row .parent:hover .icon-service {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* ================= */
+
+.Works .nav-list ul li button {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.Works .nav-list .item-img {
+    width: 97%;
+    left: 5px;
+    top: 10px;
+    height: 97%;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.Works .nav-list .item-img:hover {
+    opacity: 1;
+    top: 4px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+    border-radius: 0px;
+    width: 70%;
+    border-bottom: 1px solid black;
+}
+
+.Works .nav-list .item-img h6 {
+    font-size: 12px;
+}
+
+.item-img-chiled .icon {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border: 1px solid black;
+    transition: all .5s;
+}
+
+.item-img-chiled .icon:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* ======================= */
+
+
+.Clients {
+    background-color: #f7f7f7;
+}
+
+.Clients .container .section-head h3::before {
+    content: "";
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    bottom: -7px;
+    z-index: -2;
+}
+
+.Clients .point {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+}
+
+.Clients .citem p {
+    color: gray;
+    font-size: 14px;
+}
+
+.Clients .citem h6 {
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Clients .citem span {
+    font-size: 12px;
+    color: gray;
+
+}
+
+
+/* ================= */
+
+
+.icon-text h5 {
+    font-size: 12px;
+    color: gray;
+
+}
+
+.wrapper {
+    font-size: 27px;
+    line-height: 26px;
+}
+
+.number-area {
+    display: inline-block;
+    overflow: hidden;
+    width: 15px;
+    height: 30px;
+    margin: 10px 0px;
+}
+
+.num {
+    word-break: break-all;
+    display: block;
+    animation: number 0.5s steps(10) forwards infinite;
+}
+
+.num::before {
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    height: auto;
+}
+
+@keyframes number {
+    100% {
+        transform: translate3d(0, -260px, 0);
+    }
+}
+
+.n1 {
+    animation-iteration-count: 4;
+}
+
+.n2 {
+    animation-iteration-count: 5;
+}
+
+.n3 {
+    animation-iteration-count: 6;
+}
+
+.n4 {
+    animation-iteration-count: 6;
+}
+
+@media all and (max-width:767px) {
+    .icons .icon-text {
+        width: 100%;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+
+/* ================= */
+
+
+.Team {
+    background-color: #f7f7f7;
+}
+
+.Team .row .card .img-chiled-tem {
+    top: 83px;
+    width: 50%;
+    height: 50%;
+    left: 72px;
+    transform: rotateY(180deg);
+    transition: all .5s;
+    opacity: 0;
+}
+
+.Team .row .card {
+    background-color: #123;
+}
+
+.Team .row .card:hover .img-chiled-tem {
+    transform: rotatey(360deg);
+    width: 97%;
+    height: 97%;
+    left: 4px;
+    top: 4px;
+    opacity: 1;
+}
+
+.Team .row .card img {
+    transition: all .5s;
+}
+
+.Team .row .parent-tem:hover img {
+    transform: scale(1.2);
+}
+
+.Team .row .card .img-chiled-tem .icon-team {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    transition: all .5s;
+}
+
+.Team .row .card .img-chiled-tem .icon-team:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* ================ */
+.Contact .row .icon-contact {
+    width: 50px;
+    height: 50px;
+    background-color: #f4f4f4;
+    margin: auto;
+    transition: all .5s;
+}
+
+.Contact .row .item p {
+    color: gray;
+    font-size: 14px;
+}
+
+.Contact .row .item:hover .icon-contact {
+    background-color: black;
+    color: white;
+}
+
+.Contact input {
+    background-color: #f4f4f4;
+}
+
+.Contact textarea {
+    max-width: 100%;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    max-height: 150px;
+    resize: both;
+}
+
+.Contact button {
+    transition: all .5s;
+}
+
+.Contact button:hover {
+    background-color: white !important;
+    color: black;
+}
+
+
+/* =================== */
+
+
+footer {
+    background-color: #1c1c1c;
+    color: gray;
+    font-size: 12px;
+}
